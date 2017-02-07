@@ -13,7 +13,7 @@ import {Typeahead} from "ng2-typeahead";
 
 const appRoutes: Routes = [
     {path: 'typeahead-example', component: TypeaheadComponent, data: {title: "Typeahead Example"}},
-    {path: '', redirectTo: 'rich-grid', pathMatch: 'full'}
+    {path: '', redirectTo: 'typeahead-example', pathMatch: 'full'}
 ];
 
 @NgModule({
